@@ -22,4 +22,3 @@ for i in range(n):
     xi = xinicial + i * dx  # ponto à esquerda de cada subintervalo
     soma_riemann += f(xi) * dx
 print("Aproximação por Soma de Riemann (esquerda):", soma_riemann)
-print("Integral Definida=")
