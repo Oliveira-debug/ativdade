@@ -1,6 +1,8 @@
 # Soma de Reiman
 # Bibliotecas importadas para o código
 from sympy import integrate, symbols
+from sympy import cos, sin, tan, cot, sec, csc
+
 #F(x)
 x = symbols('x')
 função = (x**2)+(3*x)+10 
