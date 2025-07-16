@@ -1,5 +1,6 @@
 import sympy as sp
 import random
+from sympy import cos, sin, tan, cot, sec, csc
 
 def finite_diffs_sympy(xs, ordem=1, x0=1):
     n = len(xs)
